@@ -17,12 +17,12 @@
         <div style="position: absolute; bottom: 20px; left: 0; right: 0;">
             <v-list-item :ripple="false">
                 <v-list-item-icon>
-                    <v-icon color="white">fas fa-cog</v-icon>
+                    <v-icon color="white">fa-solid fa-cog</v-icon>
                 </v-list-item-icon>
             </v-list-item>
             <v-list-item :ripple="false">
                 <v-list-item-icon>
-                    <v-icon color="white">fas fa-info-circle</v-icon>
+                    <v-icon color="white">fa-solid fa-info-circle</v-icon>
                 </v-list-item-icon>
             </v-list-item>
         </div>
@@ -34,11 +34,11 @@ export default {
     data: () => ({
         selectedItem: 3,
         items: [
-            { icon: "fas fa-file-medical-alt" },
-            { icon: "fas fa-user-nurse" },
-            { icon: "fas fa-virus" },
-            { icon: "fas fa-user-md" },
-            { icon: "fas fa-comment-medical" },
+            { icon: "fa-solid fa-file-medical-alt" },
+            { icon: "fa-solid fa-user-nurse" },
+            { icon: "fa-solid fa-virus" },
+            { icon: "fa-solid fa-user-md" },
+            { icon: "fa-solid fa-comment-medical" },
         ],
     }),
 };
